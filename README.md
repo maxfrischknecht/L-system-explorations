@@ -1,6 +1,7 @@
 # L-system-explorations
 
-A repository tackeling the diverse visual outputs of L-Systems
+A repository tackeling the diverse visual outputs of L-Systems. 
+Based on a introduction by [Daniel Shiffmann](https://shiffman.net/) and his book [The Nature of Code](https://natureofcode.com/)
 
 ## Basics
 
