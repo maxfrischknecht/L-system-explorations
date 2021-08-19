@@ -12,7 +12,7 @@ String current = "A";
 int count = 0;
 
 void setup() {
-  size(200, 200);
+  size(800, 200);
   println("Generation " + count + ": " + current);
 }
 
@@ -32,10 +32,10 @@ void mousePressed() {
     char c = current.charAt(i);
     if (c == 'A') {
       // If we find A replace with AB
-      next.append("AB");
+      next.append("ABA");
     }  else if (c == 'B') {
       // If we find B replace with A
-      next.append("A");
+      next.append("BBB");
     }
   }
   // The current String is now the next one
@@ -43,5 +43,5 @@ void mousePressed() {
   count++;
   // Print to message console
   println("Generation " + count + ": " + current);
-  println(count + " " + current.length());
+  //println(count + " " + current.length());
 }
